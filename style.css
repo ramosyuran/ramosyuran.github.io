@@ -1,0 +1,16 @@
+body{
+  margin: 0 10em 0 10em;
+}
+
+header{
+  background: grey;
+  height: 250px;
+}
+
+ img{
+   border-radius: 50%;
+ }
+
+#nom{
+  text-align: center;
+}
