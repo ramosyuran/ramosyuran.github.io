@@ -3,14 +3,21 @@ body{
 }
 
 header{
-  background: grey;
+  background: #000000;
   height: 250px;
+  color: white;
 }
 
  img{
    border-radius: 50%;
+   margin: -5em 26em;
  }
 
-#nom{
-  text-align: center;
+ p{
+   text-align: center;
+ }
+
+h1{
+  margin: 5em 0 0 12em;
+  display: inline-block;
 }
