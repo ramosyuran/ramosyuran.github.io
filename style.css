@@ -4,6 +4,8 @@ body{
   color: #E6E6FA;
 }
 
+/*header*/
+
 header{
   width: 100%;
 }
@@ -12,7 +14,7 @@ header{
    border-radius: 50%;
    float: right;
    display: inline-block;
-   margin: 2em 11em;
+   margin: 2em 11em 0 0;
  }
 
 header h1{
@@ -22,32 +24,39 @@ header h1{
   text-transform: uppercase;
 }
 
-p{
+header p{
   font-size: 1em;
   margin: 0 0 0 14em;
+}
+
+/*body*/
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding: 0.3em;
 }
 
 /*Aside*/
 
 aside{
-  width: 25%;
-  margin: 4em 6em;
-  border-left: black solid;
+  width: 21%;
+  margin: 2em 1em 0 6em;
   border-right: black solid;
   border-radius: 2em;
   padding: 1em;
   float: left;
 }
 
-ul{
-  list-style: none;
-}
-
-aside li{
-  padding: 0.3em;
-}
+/*section*/
 
 section{
-  margin: 4em 6em;
+  width: 62%;
+  margin: 0 0 0 1em;
   padding: 1em;
+  border-left: black solid;
+  border-radius: 2em;
+  float: right;
 }
