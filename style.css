@@ -39,10 +39,6 @@ ul{
   list-style: none;
 }
 
-li{
-  padding: 0.3em;
-}
-
 /*Aside*/
 
 aside{
@@ -52,6 +48,11 @@ aside{
   border-radius: 1em;
   padding: 1em;
   float: left;
+}
+
+
+aside li{
+  padding: 0.3em;
 }
 
 /*section 1*/
@@ -74,6 +75,11 @@ aside{
   width: 19%;
 }
 
+
+.formation li{
+  padding: 0.6em;
+}
+
 /*section 2*/
 
 .experiences{
@@ -93,4 +99,9 @@ aside{
 .experiences h2{
   border-bottom: #FF4500 solid;
   width: 44%;
+}
+
+
+.experiences li{
+  padding: 0.6em;
 }
