@@ -45,18 +45,26 @@ aside{
   width: 21%;
   margin: 2em 1em 0 6em;
   border-right: black solid;
-  border-radius: 2em;
+  border-radius: 1em;
   padding: 1em;
   float: left;
 }
 
 /*section*/
 
-section{
+.formation{
   width: 62%;
-  margin: 0 0 0 1em;
+  margin: 0.2em 0 0 1em;
   padding: 1em;
   border-left: black solid;
-  border-radius: 2em;
+  border-radius: 1em;
   float: right;
+}
+
+.formation span{
+  font-weight: 600;
+}
+
+.experiences span{
+  font-weight: 600;
 }
