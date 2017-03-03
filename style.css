@@ -1,7 +1,7 @@
 body{
   margin: 0 0;
   background-image: url(image/back.png);
-  color: white;
+  color: #E6E6FA;
 }
 
 header{
@@ -17,7 +17,7 @@ header{
 
 header h1{
   font-size: 50px;
-  margin: 1.5em 0 0 3em;
+  margin: 1.5em 0 0 4.4em;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -25,4 +25,29 @@ header h1{
 p{
   font-size: 1em;
   margin: 0 0 0 14em;
+}
+
+/*Aside*/
+
+aside{
+  width: 25%;
+  margin: 4em 6em;
+  border-left: black solid;
+  border-right: black solid;
+  border-radius: 2em;
+  padding: 1em;
+  float: left;
+}
+
+ul{
+  list-style: none;
+}
+
+aside li{
+  padding: 0.3em;
+}
+
+section{
+  margin: 4em 6em;
+  padding: 1em;
 }
