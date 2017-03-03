@@ -1,5 +1,5 @@
 body{
-  margin: 0 0;
+  margin: 5em 5em 1em 5em;
   background-image: url(image/back.png);
   color: #E6E6FA;
 }
@@ -14,19 +14,17 @@ header{
    border-radius: 30%;
    float: right;
    display: inline-block;
-   margin: 2em 11em 0 0;
  }
 
 header h1{
   font-size: 50px;
-  margin: 1.5em 0 0 4.4em;
   display: inline-block;
   text-transform: uppercase;
 }
 
 header p{
   font-size: 1em;
-  margin: 0 0 0 14em;
+  margin-top: -0.8em;
 }
 
 header span{
@@ -43,7 +41,6 @@ ul{
 
 aside{
   width: 21%;
-  margin: 2em 1em 3em 6em;
   border-right: black solid;
   border-radius: 1em;
   padding: 1em;
@@ -55,14 +52,13 @@ aside h3{
 }
 
 aside li{
-  padding: 0.3em;
+  padding: 0.25em;
 }
 
-/*section 1*/
+/*section formation*/
 
 .formation{
-  width: 62%;
-  margin: 0.2em 0 0 1em;
+  width: 69%;
   padding: 1em;
   border-left: black solid;
   border-radius: 1em;
@@ -75,7 +71,7 @@ aside li{
 
 .formation h2{
   border-bottom: #FF4500 solid;
-  width: 19%;
+  width: 6em;
 }
 
 
@@ -83,14 +79,14 @@ aside li{
   padding: 0.6em;
 }
 
-/*section 2*/
+/*section experiences*/
 
 .experiences{
-  width: 62%;
+  width: 69%;
   padding: 1em;
   border-left: black solid;
   border-radius: 1em;
-  margin: 2em 0 3em 0;
+  margin-top: 2em;
   float: right;
 }
 
@@ -101,7 +97,7 @@ aside li{
 
 .experiences h2{
   border-bottom: #FF4500 solid;
-  width: 44%;
+  width: 14.2em;
 }
 
 
@@ -111,7 +107,6 @@ aside li{
 
 /*footer*/
 
-footer a{
-  display: inline-block;
-  margin: 1em;
+footer li{
+  display: inline;
 }
