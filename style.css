@@ -29,6 +29,10 @@ header p{
   margin: 0 0 0 14em;
 }
 
+header span{
+  color: #FF4500;
+}
+
 /*body*/
 
 ul{
@@ -50,7 +54,7 @@ aside{
   float: left;
 }
 
-/*section*/
+/*section 1*/
 
 .formation{
   width: 62%;
@@ -65,6 +69,28 @@ aside{
   font-weight: 600;
 }
 
+.formation h2{
+  border-bottom: #FF4500 solid;
+  width: 19%;
+}
+
+/*section 2*/
+
+.experiences{
+  width: 62%;
+  padding: 1em;
+  border-left: black solid;
+  border-radius: 1em;
+  margin: 2em 0 0 0;
+  float: right;
+}
+
 .experiences span{
   font-weight: 600;
+}
+
+
+.experiences h2{
+  border-bottom: #FF4500 solid;
+  width: 44%;
 }
