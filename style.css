@@ -16,13 +16,13 @@ header{
  }
 
 header h1{
-  font-size: 65px;
-  margin: 1.1em 1.5em;
+  font-size: 50px;
+  margin: 1.5em 0 0 3em;
   display: inline-block;
   text-transform: uppercase;
 }
 
 p{
-  font-size: 20px;
-  margin: 0 10em;
+  font-size: 1em;
+  margin: 0 0 0 14em;
 }
