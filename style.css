@@ -11,7 +11,7 @@ header{
 }
 
  header img{
-   border-radius: 50%;
+   border-radius: 30%;
    float: right;
    display: inline-block;
    margin: 2em 11em 0 0;
@@ -50,6 +50,9 @@ aside{
   float: left;
 }
 
+aside h3{
+  color: #FF4500;
+}
 
 aside li{
   padding: 0.3em;
