@@ -86,7 +86,7 @@ aside li{
   padding: 1em;
   border-left: black solid;
   border-radius: 1em;
-  margin-top: 2em;
+  margin-top: 1.6em;
   float: right;
 }
 
@@ -109,4 +109,9 @@ aside li{
 
 footer li{
   display: inline;
+  float: right;
+}
+
+footer a{
+  padding: 1em;
 }
