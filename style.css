@@ -1,5 +1,5 @@
 body{
-  margin: 5em 5em 1em 5em;
+  margin: 5em 3em 1em 3em;
   background-image: url(image/back.png);
   color: #E6E6FA;
 }
@@ -8,6 +8,7 @@ body{
 
 header{
   width: 100%;
+  height: 200px;
 }
 
  header img{
@@ -31,20 +32,18 @@ header span{
   color: #FF4500;
 }
 
-/*body*/
-
-ul{
-  list-style: none;
-}
-
 /*Aside*/
 
 aside{
-  width: 21%;
+  width: 24%;
+  height: 900px;
+  float: left;
   border-right: black solid;
   border-radius: 1em;
-  padding: 1em;
-  float: left;
+}
+
+aside ul{
+  list-style: none;
 }
 
 aside h3{
@@ -52,57 +51,41 @@ aside h3{
 }
 
 aside li{
-  padding: 0.25em;
+  padding: 0.4em;
 }
 
 /*section formation*/
 
-.formation{
-  width: 69%;
-  padding: 1em;
-  border-left: black solid;
-  border-radius: 1em;
+section{
+  width: 74%;
+  height: 900px;
   float: right;
 }
 
-.formation span{
+section ul{
+  border-left: black solid;
+  border-radius: 1em;
+  list-style: none;
+  padding: 1em;
+  height: 400px;
+}
+
+section span{
   font-weight: 600;
 }
 
-.formation h2{
+section li{
+  padding: 1em;
+}
+
+#formation{
   border-bottom: #FF4500 solid;
   width: 6em;
 }
 
-
-.formation li{
-  padding: 0.6em;
-}
-
-/*section experiences*/
-
-.experiences{
-  width: 69%;
-  padding: 1em;
-  border-left: black solid;
-  border-radius: 1em;
-  margin-top: 1.6em;
-  float: right;
-}
-
-.experiences span{
-  font-weight: 600;
-}
-
-
-.experiences h2{
+#experiences{
   border-bottom: #FF4500 solid;
   width: 14.2em;
-}
-
-
-.experiences li{
-  padding: 0.6em;
 }
 
 /*footer*/
