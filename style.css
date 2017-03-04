@@ -91,11 +91,11 @@ section li{
 
 /*footer*/
 
-footer li{
-  display: inline;
-  float: right;
+footer{
+  width: 100%;
 }
 
 footer a{
-  padding: 1em;
+  float: right;
+  margin: auto 0.5em;
 }
